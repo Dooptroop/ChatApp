@@ -1,0 +1,36 @@
+/*Color theme Variables*/
+// As hex codes */
+
+$color-primary-0: #283C57;	// Main Primary color */
+$color-primary-1: #5C6E88;
+$color-primary-2: #3D526E;
+$color-primary-3: #182B46;
+$color-primary-4: #09192F;
+// As RGBa codes */
+
+$rgba-primary-0: rgba( 40, 60, 87,1);	// Main Primary color */
+$rgba-primary-1: rgba( 92,110,136,1);
+$rgba-primary-2: rgba( 61, 82,110,1);
+$rgba-primary-3: rgba( 24, 43, 70,1);
+$rgba-primary-4: rgba(  9, 25, 47,1);
+
+$green: #1CFF00;
+
+
+
+.online-members.sidebar {
+  .title{
+    color: $green;
+  }
+  #online-list{
+    color: $green;
+    ul {
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
+.left{
+  float: left;
+}

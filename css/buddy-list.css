@@ -1,0 +1,12 @@
+/*Color theme Variables*/
+.online-members.sidebar .title {
+  color: #1CFF00; }
+.online-members.sidebar #online-list {
+  color: #1CFF00; }
+  .online-members.sidebar #online-list ul li {
+    list-style: none; }
+
+.left {
+  float: left; }
+
+/*# sourceMappingURL=buddy-list.css.map */

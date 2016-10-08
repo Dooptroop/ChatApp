@@ -1,6 +1,7 @@
 /**
  * Created by mdupree on 10/8/16.
  */
+var refresh_rate = 15;
 
 
 // jQuery Document
@@ -37,6 +38,17 @@ $(document).ready(function(){
       },
     });
   }
-  setInterval (loadLog, 15);	//Reload file every 2500 ms or x ms if you wish to change the second parameter
+
+  function loadOnlineMembers(){
+    $.ajax({
+      url: "log/whosonline.html",
+      cache: false,
+      success: function(html){
+        $("#online-list").html(html); //Insert chat log into the #chatbox div
+      },
+    });
+  }
+  setInterval (loadLog, refresh_rate);	//Reload file every refresh_rate or x ms if you wish to change the second parameter
+  setInterval (loadOnlineMembers, refresh_rate);
 
 });//End Document Ready Function()

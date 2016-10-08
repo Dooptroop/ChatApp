@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yBAAyB;AAqBvB,8BAAM;EACJ,KAAK,EAND,OAAO;AAQb,oCAAY;EACV,KAAK,EATD,OAAO;EAWT,0CAAG;IACD,UAAU,EAAE,IAAI;;AAKxB,KAAK;EACH,KAAK,EAAE,IAAI",
+"sources": ["buddy-list.scss"],
+"names": [],
+"file": "buddy-list.css"
+}
