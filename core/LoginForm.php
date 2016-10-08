@@ -37,7 +37,7 @@ if(isset($_POST['enter'])){
 if(isset($_GET['logout'])){
 
   //Simple exit message
-  $fp = fopen("log.html", 'a');
+  $fp = fopen("log/log.html", 'a');
   fwrite($fp, "<div class='msgln'><i>User ". $_SESSION['name'] ." has left the chat session.</i><br></div>");
   fclose($fp);
 
